@@ -39,7 +39,7 @@ button {
     overflow: hidden;
 }
 
-.headline {
+.section-title {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -120,6 +120,7 @@ button {
 /*Особенности*/
 
 .feature-items {
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -151,6 +152,7 @@ button {
     color: var(--primary-text-color)
 }
 
+/* Футер */
 .under-logo {
     font-family: var(--font-family-secondary);
     font-weight: 700;
@@ -207,4 +209,15 @@ button {
 .main-portfolio-button.active {
     background-color: var(--link-color);
     color: var(--accent-color);
+}
+
+.list-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.list-title-description {
+    line-height: 1.7;
+    color: var(--primary-text-color);
 }
